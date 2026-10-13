@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE_NAME = 'auliazhro/PraktikumCloudComputing'
+    IMAGE_NAME = 'auliaazz/praktikumcloudcomputing'
     REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
   stages {
